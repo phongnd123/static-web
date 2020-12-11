@@ -3,58 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Chào mừng đến với nghiện phim</title>
     <link rel="StyleSheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
-    <nav>
-        <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
-                <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
-                </div>
-            </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
-        </ul>
-    </nav>
+    <div class="w3-row" style="background: black;">
+        <div class="w3-col m6">
+            <img style="height: 100px; float: right;margin-right: 70px ;" src="imagess/home1.jpg" alt="">
+        </div>
+        <div class="w3-col m6">
+            <form action="index.html" method="post" >
+                <input type="text" placeholder="Tìm kiếm ....." name="">
+                <input type="submit" name="" value="Tìm">    
+            </form>
+        </div>
+    </div>
+    <div>
+        <nav>
+            <ul class="w3-container menu">
+                <li><a data-section="home">TRANG CHỦ</a></li>
+                <li><a data-section="1">NĂM SẢN XUẤT</a></li>
+                <li><a data-section="2">THỂ LOẠI</a></li>
+                <li><a data-section="3">QUỐC GIA</a></li>
+                <li><a data-section="4">TOP IMDB</a></li>
+                <li><a data-section="5">ĐƯỢC ĐÁNH GIÁ CAO</a></li>
+                <li><a data-section="6">ĐƯỢC XEM NHIỀU NHẤT</a></li>
+                <li><a data-section="7">PHIM CHIẾU RẠP</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
+        <div class="w3-row" style="background: #333333;">
+                <div class="w3-col m3 tk">
+                    <p style="color: yellow;font-size:27px;font-family: time new romal;font-weight:bold;">TỪ KHÓA NỔI BẬT</p>
+                    <ul class="row" style="background: 	#110000">
+                        <li><a href="#">tội phạm</a></li>
+                        <li><a href="#">tình yêu</a></li>
+                        <li><a href="#">phim ma </a></li>
+                        <li><a href="#">marvel</a></li>
+                        <li><a href="#">cảnh sát</a></li>
+                        <li><a href="#">ma cà rồng</a></li>
+                        <li><a href="#">zombie</a></li>
+                        <li><a href="#">xác sống</a></li>
+                        <li><a href="#">siêu anh hùng </a></li>
+                        <li><a href="#">drama</a></li>
+                        <li><a href="#">siêu nhân</a></li>
+                        <li><a href="#">người ngoài hành tinh</a></li>
+                        <li><a href="#">thảm họa</a></li>
+                        <li><a href="#">quái vật</a></li>
+                        <li><a href="#">sát thủ</a></li>
+                        <li><a href="#">phim viễn tưởng hay</a></li>
+                        <li><a href="#">tận thế</a></li>
+                        <li><a href="#">phù thủy </a></li>
+                        <li><a href="#">người máy</a></li>
+                        <li><a href="#">châu tinh trì</a></li>
+                        <li><a href="#">xã hội đen</a></li>
+                     
+                    </ul>
+                </div>
+                <div class="w3-col m9 cr">
+                    <h1 style="font-size:27px;font-family:time new roman;font-weight:bold;color:#FFFF00;border-bottom:2px solid #FFFF00;padding-bottom:10px;">PHIM CHIẾU RẠP MỚI</h1>
+                        <div class="w3-row phimrap">
+                            <div class="w3-col m3">
+                                <a href="#">
+                                    <img style="width:100%" src="imagess/coba.jpg"/>
+                                    <p>Cô Ba Sài Gòn</p>
+                                </a>
+                            </div>
+                            <div class="w3-col m3">
+                                <a href="#">
+                                    <img style="width:100%" src="imagess/cmv.jpg"/>
+                                    <p>Captain Marvel</p>
+                                </a>
+                            </div>
+                            <div class="w3-col m3">
+                                <a href="#">
+                                    <img style="width:103%" src="imagess/dora.jpg"/>
+                                    <p>Dora</p>
+                                </a>
+                            </div>
+                            <div class="w3-col m3">
+                                <a href="#">
+                                    <img style="width:105%" src="imagess/mecung.jpg"/>
+                                    <p>Giải mã mê cung</p>
+                                </a>
+                            </div>
+                           
+                        </div>
+                </div>
+            </div>
+            <!-- ================================= -->
+            <div class="w3-col m12 cr" style="background: #333333;">
+                <h1 style="font-size:27px;font-family:time new roman;font-weight:bold;color:#FFFF00;border-bottom:2px solid #FFFF00;padding-bottom:10px;">PHIM BỘ MỚI NHẤT</h1>
+                    <div class="w3-row phimrap">
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:100%" src="imagess/coba.jpg"/>
+                                <p>Cô Ba Sài Gòn</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:100%" src="imagess/cmv.jpg"/>
+                                <p>Captain Marvel</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:103%" src="imagess/dora.jpg"/>
+                                <p>Dora</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:105%" src="imagess/mecung.jpg"/>
+                                <p>Giải mã mê cung</p>
+                            </a>
+                        </div>
+                 </div>
+            </div>
+            <div class="w3-col m12 cr" style="background: #333333;">
+                <h1 style="font-size:27px;font-family:time new roman;font-weight:bold;color:#FFFF00;border-bottom:2px solid #FFFF00;padding-bottom:10px;">PHIM HOT CỦA THÁNG</h1>
+                    <div class="w3-row phimrap">
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:100%" src="imagess/coba.jpg"/>
+                                <p>Cô Ba Sài Gòn</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:100%" src="imagess/cmv.jpg"/>
+                                <p>Captain Marvel</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:103%" src="imagess/dora.jpg"/>
+                                <p>Dora</p>
+                            </a>
+                        </div>
+                        <div class="w3-col m3">
+                            <a href="#">
+                                <img style="width:105%" src="imagess/mecung.jpg"/>
+                                <p>Giải mã mê cung</p>
+                            </a>
+                        </div>
+                 </div>
+            </div>
+        
     </section>
 
-    <section id="services" class="hideable-section">
+    <section id="1" class="hideable-section">
         <div>Services content</div>
     </section>
 
-    <section id="about" class="hideable-section">
+    <section id="2" class="hideable-section">
         <div>About content</div>
     </section>
 
-    <section id="link1" class="hideable-section">
+    <section id="3" class="hideable-section">
         <div>Link1 content</div>
     </section>
 
-    <section id="link2" class="hideable-section">
+    <section id="4" class="hideable-section">
         <div>Link2 content</div>
     </section>
 
-    <section id="link3" class="hideable-section">
+    <section id="5" class="hideable-section">
         <div>Link3 content</div>
     </section>
 
+    <section id="6" class="hideable-section">
+        <div>Link3 content</div>
+    </section>
     <script>
         $(function() {
             $('nav ul li a').click(function() {
@@ -70,6 +197,22 @@
             });
         });
     </script>
+        <!-- // ============================footer===================== -->
+   
+        <div class="w3-row" style="background: black">
+            <div class="w3-col m4">
+                <a><img style="height: 250px;" src="imagess/home1.jpg"/></a>
+            </div>
+            <div class="w3-col m4">
+                <span style="color: white;font-weight:bold;margin-left:5px;font-size:20px;">SĐT: 02475098444</span>
+                <div>
+                    <span style="color: white;font-weight:bold;margin-left:5px;font-size:20px;">MAIL: nghienphim@gmail.com</span>
+                </div>
+            </div>
+           
+        </div>
+   
+    			
 </body>
 
 </html>
